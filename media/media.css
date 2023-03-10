@@ -240,16 +240,16 @@
 
 
 
-
-@media screen and (max-width: 320px) {
+/*
+@media screen and (min-width: 320px)  and (max-width: 425px) {
     .page {
         width : 320px;
         height: 6875px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .header {
+@media screen and (min-width: 320px)  and (max-width: 425px) {
+    .header { 
 
         width       : 288px;
         height      : 42px;
@@ -258,7 +258,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and  (min-width: 320px)  and (max-width: 425px) {
     .header__logo {
 
         width : 142px;
@@ -267,7 +267,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px)  and (max-width: 425px)  {
     .header__lang-link {
 
         width : 22px;
@@ -276,7 +276,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px)  and (max-width: 425px) {
     .header__lang-links {
 
         width : 22px;
@@ -286,7 +286,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px)  and (max-width: 425px) {
     .lead {
         position: absolute;
         width   : 320px;
@@ -297,7 +297,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px)  and (max-width: 425px)   {
     .lead__title {
         width         : 288px;
         height        : 88px;
@@ -311,7 +311,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen  and (min-width: 320px)  and (max-width: 425px) {
     .lead__subtitle {
         width      : 288px;
         height     : 40px;
@@ -322,7 +322,7 @@
     }
 }
 
-@media screen and (min-width: 320px ) {
+@media screen and (min-width: 320px)  and (max-width: 425px) {
     .lead__image {
         display: block;
         width         : 300%;
@@ -333,7 +333,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px)  and (max-width: 425px) {
     .lead__caption {
 
         font-style    : normal;

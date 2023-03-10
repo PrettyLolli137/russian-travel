@@ -1,4 +1,11 @@
 .header__lang-links {
-    color: #FFFFFF;
-    
+    color      : #FFFFFF;
+    width      : 22px;
+    height     : 20px;
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 18px;
+    line-height: 20px;
+    padding-bottom: 8px;
+    padding-top: 14px;
 }

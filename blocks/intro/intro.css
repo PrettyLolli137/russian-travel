@@ -1,6 +1,10 @@
 .intro {
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF;
-    
+    margin          : 0;
+    padding         : 0;
+    color: #FFFFFF;
+    width           : 288px;
+    height          : 754px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 64px;
 }
