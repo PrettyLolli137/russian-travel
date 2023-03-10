@@ -2,4 +2,11 @@
     margin: 0;
     width : 288px;
     height: 216px;
+    
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    
 }

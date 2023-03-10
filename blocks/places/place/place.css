@@ -1,0 +1,7 @@
+.place {
+    width : 320px;
+    height: 1042px;
+    display: flex;
+    flex-direction: column;
+    
+}

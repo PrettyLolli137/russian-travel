@@ -1,0 +1,11 @@
+.cover__overlay {
+    margin  : 0;
+    position: absolute;
+    width   : 320px;
+    height  : 200px;
+    left    : 0px;
+    top     : 25px;
+
+    background: #2A2C2F;
+    opacity   : 0.3;
+}
