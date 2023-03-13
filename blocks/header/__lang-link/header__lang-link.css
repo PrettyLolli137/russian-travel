@@ -1,13 +1,18 @@
 .header__lang-link {
-    color : #FFFFFF;
-    width : 22px;
-    height: 20px; 
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 18px;
-    line-height: 20px;
-    padding-right: 18px;
+    color         : #FFFFFF;
+    width         : 22px;
+    height        : 20px;
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 18px;
+    line-height   : 20px;
+    padding-right : 18px;
     padding-bottom: 8px;
-    padding-top: 14px;
+    padding-top   : 14px;
+    opacity       : 1;
+    transition    : opacity 0.4s;
+}
 
+.header__lang-link:hover {
+    opacity: 0.5;
 }

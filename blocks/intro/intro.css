@@ -2,12 +2,13 @@
     margin        : 0;
     padding       : 0;
     color         : #FFFFFF;
-    
+    display: flex;
+    flex-direction: column;
     width         : 288px;
     height        : 754px;
     padding-left  : 16px;
     padding-right : 16px;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
     margin-top: 64px;
     
 }
