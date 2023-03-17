@@ -4,6 +4,11 @@
     font-weight: 400;
     font-size  : 16px;
     line-height: 163%;
+    padding-bottom: 50px;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
    
 
 

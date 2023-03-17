@@ -5,29 +5,30 @@
 }
 
 
-@media screen and (max-width: 320px)  {
+
+
+@media screen and (max-width: 320px) {
     .page {
         margin          : 0;
         background-color: #2A2C2F;
 
         position : relative;
         min-width: 320px;
-        
+
 
     }
 
 }
 
-
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .page {
         margin          : 0;
         background-color: #2A2C2F;
 
         position : relative;
         min-width: 768px;
-        height   : 6855px;
+       height: 6855px;
+        
 
     }
 
@@ -239,21 +240,23 @@
     }
 
     .place {
-        max-width            : 93.75%;
+        min-width            : 720px;
         display              : grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         column-gap           : 28px;
-        row-gap              : 48px;
-
+        
+        row-gap      : 48px;
+        padding-left : 24px;
+        padding-right: 24px;
 
 
     }
 
     .place__title {
         margin: 0;
+       
+        height: 92px;
 
-        width         : 340px;
-        height        : 92px;
         padding-right : 28px;
         padding-bottom: 48px;
         padding-left  : 24px;
@@ -271,7 +274,7 @@
         height     : 46px;
         display    : flex;
         margin-left: 9px;
-        ;
+        align-items: flex-end;
 
 
     }
@@ -311,11 +314,14 @@
     }
 
     .place__image {
-        margin      : 0;
-        width       : 340px;
-        height      : 340px;
-        padding-left: 24px;
-        padding-top : 48px;
+        padding: 0;
+        margin : 0;
+        width  : 340px;
+
+        padding-left  : 24px;
+        padding-top   : 48px;
+        padding-bottom: 174px;
+
 
 
 
@@ -323,8 +329,7 @@
 
     .place__paragraph {
         margin: 0;
-        width : 352px;
-        height: 184px;
+
 
 
         font-style : normal;
@@ -336,32 +341,34 @@
 
     .place__paragraphs {
         margin        : 0;
+        padding       : 0;
         display       : flex;
         align-items   : center;
         flex-direction: column;
+        flex-wrap     : wrap;
         font-style    : normal;
+        width         : 352px;
         font-weight   : 400;
         font-size     : 16px;
         line-height   : 163%;
 
+
     }
 
     .cover {
-        position: relative;
-        display : inline-block;
-        width   : 100%;
-        height  : 480px;
+
+        width : 768px;
+        height: 480px;
     }
 
-    /*
+
     .cover__title {
-        margin  : 0;
-        position: absolute;
+        margin: 0;
+
 
         width : 560px;
         height: 152px;
-        left  : 104px;
-        top   : 63px;
+
 
 
         font-style : normal;
@@ -374,12 +381,11 @@
     }
 
     .cover__subtitle {
-        margin  : 0;
-        position: absolute;
-        width   : 360px;
-        height  : 66px;
-        left    : 204px;
-        top     : 65px;
+        margin: 0;
+
+        width : 360px;
+        height: 66px;
+
 
 
 
@@ -393,23 +399,21 @@
 
         color: #FFFFFF;
     }
-*/
+
     .cover__background {
-        margin  : 0;
-        position: absolute;
-        width   : 768px;
-        height  : 480px;
-        top     : 600px;
-        bottom  : 130px;
+        margin: 0;
+
+        width : 768px;
+        height: 480px;
+
     }
 
     .cover__overlay {
-        margin  : 0;
-        position: absolute;
-        width   : 768px;
-        height  : 480px;
-        left    : 0px;
-        top     : 62px;
+        margin: 0;
+
+        width : 768px;
+        height: 480px;
+
 
         background: #2A2C2F;
         opacity   : 0.3;
@@ -463,6 +467,8 @@
     }
 
 }
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .page {
@@ -717,14 +723,16 @@
         width  : 928px;
 
         display              : grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         margin-bottom        : 80px;
+        column-gap           : 100px;
+        row-gap      : 28px;
     }
 
     .place__title {
         padding       : 0;
         margin        : 0;
-        width         : 440px;
+        width         : 340px;
         height        : 100%;
         font-style    : normal;
         font-weight   : 900;
@@ -842,6 +850,7 @@
         width  : 100px;
         height : 18px;
 
+
         font-style : normal;
         font-weight: 400;
         font-size  : 16px;
@@ -873,10 +882,17 @@
 
 }
 
+
+
+
+
+
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .page {
         margin          : 0;
         background-color: #2A2C2F;
+        ;
 
         position : relative;
         min-width: 1280px;
@@ -1110,8 +1126,8 @@
     .places {
         margin       : 0;
         padding      : 0;
-        width        : 984px;
-        height       : 3292px;
+        width: 984px;
+        
         color        : white;
         padding-left : 48px;
         padding-right: 48px;
@@ -1122,10 +1138,12 @@
     .place {
         margin               : 0;
         padding              : 0;
-        width                : 928px;
+        width                : 984px;
         height               : 640px;
         display              : grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        column-gap           : 28px;
+        row-gap      : 28px;
         margin-bottom        : 80px;
     }
 
@@ -1222,6 +1240,7 @@
         font-weight   : 400;
         font-size     : 16px;
         line-height   : 163%;
+        
 
     }
 
@@ -1281,6 +1300,15 @@
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 

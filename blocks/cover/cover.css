@@ -1,8 +1,8 @@
 .cover {
     position: relative;
     display: inline-block;
-    width   : 320px;
-    height  : 200px;
+    min-width   : 320px;
+    height: 200px;
     margin-bottom: 70px;
     
 
