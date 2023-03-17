@@ -1,7 +1,8 @@
 .place__image {
     margin     : 0;
-    width      : 320px;
-    height     : 320px;
-    padding-top: 66px;
+    width      : 100%;
+    
+    padding-top: 64px;
+    padding-bottom: 32px;
 
 }

@@ -1,9 +1,16 @@
 .place {
-    width : 320px;
-    height: 1042px;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 32px;
-    align-content: center
+    min-width : 320px;
+    height: 1042;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     
 }
+
+/*
+display: grid;
+grid-template-columns: 1fr;
+column-gap: 32px;
+align-content: center
