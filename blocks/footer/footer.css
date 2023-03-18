@@ -1,9 +1,10 @@
 .footer {
-    margin: 0;
-    color : white;
-    width : 186px;
-    
-    display: flex;
-    flex-direction: column;
-    grid-row-gap: 32px;
+    margin         : 0;
+    color          : white;
+    width          : 186px;
+    text-decoration: none;
+    list-style-type: none;
+    display        : flex;
+    flex-direction : column;
+    grid-row-gap   : 32px;
 }
