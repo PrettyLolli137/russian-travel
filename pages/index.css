@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
-@import url(../media/media.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/root/root.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -49,7 +50,3 @@
 
 
 
-body {
-    margin: 0;
-    padding: 0;
-}

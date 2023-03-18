@@ -1,7 +1,29 @@
 .header__logo {
-
-    color : #FFFFFF;
-    width : 142px;
-    height: 42px;
+    color        : #FFFFFF;
+    width        : 142px;
+    height       : 42px;
     padding-right: 84px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .header__logo {
+        width : 176px;
+        height: 52px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header__logo {
+        width : 176px;
+        height: 52px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .header__logo {
+        width : 176px;
+        height: 52px;
+    }
 }
