@@ -4,6 +4,7 @@
     color      : #FFFFFF;
     padding-top: 66px;
     background-color: #2A2C2F;
+    width: 320px;
 }
 
 
@@ -41,7 +42,7 @@
         height        : 3392px;
         padding-left  : 148px;
         padding-right : 148px;
-        margin-top    : 92px;
-        margin-bottom : 92px;
+        padding-top    : 92px;
+        padding-bottom : 92px;
     }
 }

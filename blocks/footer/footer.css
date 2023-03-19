@@ -2,26 +2,27 @@
     margin          : 0;
     color           : #FFFFFF;
     min-width       : 186px;
-    text-decoration : none;
-    list-style-type : none;
-    display         : flex;
-    flex-direction  : column;
-    grid-row-gap    : 32px;
     background-color: #2A2C2F;
     padding-top     : 97px;
-    padding-bottom: 48px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+    row-gap         : 32px;
+
+
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .footer {
-        padding: 0;
+        padding        : 0;
         margin         : 0;
         width          : 100%;
         display        : flex;
         flex-direction : row;
         justify-content: space-between;
-        padding-top     : 98px;
-        
+        padding-top    : 98px;
+
     }
 }
 
@@ -36,7 +37,7 @@
         justify-content: flex-start;
         padding-bottom : 24px;
         padding-left   : 48px;
-        align-content  : space-between;
+        align-content  : stretch;
         justify-content: center;
     }
 }
@@ -44,15 +45,18 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .footer {
-        padding        : 0;
-        margin         : 0;
-        height         : 18px;
-        flex-wrap      : wrap;
+        padding       : 0;
+        margin        : 0;
+        min-width     : 1184px;
+        height        : 18px;
+        display       : flex;
+        flex-direction: row;
+        flex-wrap      : nowrap;
+        align-items    : flex-end;
         justify-content: flex-start;
         padding-right  : 48px;
         padding-left   : 48px;
         padding-bottom : 24px;
-
-        justify-content: center;
+       
     }
 }
