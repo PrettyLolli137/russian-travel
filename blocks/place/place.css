@@ -6,6 +6,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .place {
+        margin: 0;
         display              : grid;
         justify-items        : center;
         grid-template-columns: 340px 1fr;
@@ -24,7 +25,7 @@
         justify-content      : space-between;
         align-content        : stretch;
         grid-template-columns: 400px 1fr;
-        margin-bottom        : 80px;
+        padding-bottom        : 80px;
         column-gap           : 100px;
     }
 }
@@ -39,6 +40,22 @@
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         column-gap           : 28px;
         row-gap              : 28px;
-        margin-bottom        : 80px;
+        padding-bottom        : 80px;
+        border: solid red;
+
+    }
+}
+
+
+@media screen and (min-width: 1280px)  {
+    .place {
+        margin               : 0;
+        padding              : 0;
+        width                : 984px;
+        display              : grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        column-gap           : 28px;
+        row-gap              : 28px;
+        padding-bottom        : 80px;
     }
 }

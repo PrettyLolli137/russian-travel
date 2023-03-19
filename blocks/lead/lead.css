@@ -1,18 +1,78 @@
 .lead {
-    margin        : 0;
-    padding       : 0;
-    position: relative;
-    min-height: 406px;
+    margin          : 0;
+    padding         : 0;
+    min-height      : 406px;
     background-color: #2A2C2F;
-    
+
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .lead {
+        margin : 0;
+        padding: 0;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lead {
+        margin        : 0;
+        padding       : 0;
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : flex-start;
+        padding-left  : 48px;
+     
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .lead {
+        margin        : 0;
+        padding       : 0;
+        width         : 928px;
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : flex-start;
+        padding-left  : 148px;
+        padding-right : 48px;
+        border: solid red;
+
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        margin : 0;
+        padding: 0;
+        width  :
+            984px;
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : flex-start;
+        padding-left  : 148px;
+        padding-right : 148px;
+    }
+}
+
+
+
+
+/*
+
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .lead {
         margin  : 0;
         padding : 0;
-        width   : 100%;
+        
     }
 }
 
@@ -30,6 +90,22 @@
 
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .lead {
+        margin : 0;
+        padding: 0;
+        width: 984px;
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : flex-start;
+        padding-left  : 148px;
+        padding-right  : 148px;
+        
+    }
+}
+
+
+@media screen and (min-width: 1280px)  {
     .lead {
         margin : 0;
         padding: 0;

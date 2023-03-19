@@ -33,3 +33,12 @@
 
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .place__paragraph {
+        margin     : 0;
+        max-width: 484px;
+
+    }
+
+}

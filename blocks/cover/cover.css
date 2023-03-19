@@ -12,8 +12,8 @@
     .cover {
         margin   : 0;
         padding  : 0;
-        min-width: 768px;
         height   : 480px;
+        
     }
 }
 
@@ -34,7 +34,24 @@
         margin       : 0;
         padding      : 0;
         padding-bottom: 92px;
+        padding-left  : 28px;
+        padding-right  : 48px;
+        width: 1184px;
+        height       : 740px;
+        border: solid red;
+
+    }
+}
+
+
+@media screen and (min-width: 1280px)  {
+    .cover {
+        margin       : 0;
+        padding      : 0;
+        padding-bottom: 92px;
         padding-left  : 48px;
+        
+
         width: 1184px;
         height       : 740px;
     }

@@ -30,3 +30,12 @@
         height    : 213px;
     }
 }
+
+
+@media screen and (min-width: 1280px)  {
+    .photo-grid__item {
+        margin    : 0;
+        width     : 284px;
+        height    : 213px;
+    }
+}

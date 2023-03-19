@@ -4,7 +4,6 @@
     left       : 16px;
     top        : 119px;
     width      : 288px;
-    height     : 48px;
     font-style : normal;
     font-weight: 400;
     font-size  : 14px;
@@ -18,7 +17,6 @@
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
-        height     : 66px;
         left       : 204px;
         top        : 299px;
         font-size  : 18px;
@@ -30,7 +28,6 @@
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
-        height     : 66px;
         left       : 332px;
         top        : 379px;
         font-size  : 18px;
@@ -43,10 +40,23 @@
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
-        height     : 66px;
+        left       : 449px;
+        top        : 429px;
+        font-size  : 18px;
+        line-height: 22px;
+    }
+}
+
+
+@media screen and (min-width: 1280px)  {
+    .cover__subtitle {
+        margin     : 0;
+        width      : 360px;
         left       : 412px;
         top        : 429px;
         font-size  : 18px;
         line-height: 22px;
     }
+
+
 }

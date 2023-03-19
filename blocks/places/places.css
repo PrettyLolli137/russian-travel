@@ -4,7 +4,7 @@
     color      : #FFFFFF;
     padding-top: 66px;
     background-color: #2A2C2F;
-    width: 320px;
+    
 }
 
 
@@ -12,8 +12,8 @@
     .places {
         margin       : 0;
         padding      : 0;
-        width        : 100%;
-        margin-bottom: 90px;
+                margin-bottom: 90px;
+        ;
     }
 }
 
@@ -22,7 +22,7 @@
         margin       : 0;
         padding      : 0;
         width        : 928px;
-        padding-left : 48px;
+        padding-left : 28px;
         padding-right: 48px;
         margin-top   : 92px;
         margin-bottom: 92px;
@@ -38,6 +38,23 @@
         flex-direction: column;
         flex-wrap     : nowrap;
         align-items   : center;
+        width                : 984px;
+        height        : 3392px;
+        padding-left  : 148px;
+        padding-right : 148px;
+        padding-top    : 92px;
+        padding-bottom : 92px;
+        border: solid red;
+
+    }
+}
+
+
+@media screen and (min-width: 1280px)  {
+    .places {
+        margin        : 0;
+        padding       : 0;
+        
         min-width     : 984px;
         height        : 3392px;
         padding-left  : 148px;

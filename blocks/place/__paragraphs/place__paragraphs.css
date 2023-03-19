@@ -17,7 +17,7 @@
     .place__paragraphs {
         padding: 0;
         margin : 0;
-        
+
     }
 }
 
@@ -28,7 +28,7 @@
         display       : flex;
         align-items   : flex-start;
         flex-direction: column;
-        width         : 456px;
+        max-width         : 456px;
     }
 }
 
@@ -42,4 +42,17 @@
         align-items   : flex-start;
         width         : 484px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .place__paragraphs {
+        padding       : 0;
+        margin        : 0;
+        display       : flex;
+        flex-direction: column;
+        align-items   : flex-start;
+        width         : 484px;
+    }
+
 }

@@ -17,7 +17,6 @@
         margin        : 0;
         padding       : 0;
         width         : 720px;
-        height        : 90px;
         text-align    : left;
         font-style    : normal;
         font-weight   : 700;
@@ -33,7 +32,6 @@
         margin        : 0;
         padding       : 0;
         width         : 690px;
-        height        : 90px;
         text-align    : left;
         font-style    : normal;
         font-weight   : 700;
@@ -51,7 +49,6 @@
         margin        : 0;
         padding       : 0;
         width         : 690px;
-        height        : 90px;
         text-align    : left;
         font-style    : normal;
         font-weight   : 700;
@@ -60,4 +57,22 @@
         letter-spacing: 1.5px;
         text-transform: uppercase;
     }
+}
+
+
+@media screen and (min-width: 1280px)  {
+    .intro__list {
+        margin        : 0;
+        padding       : 0;
+        width         : 690px;
+        text-align    : left;
+        font-style    : normal;
+        font-weight   : 700;
+        font-size     : 12px;
+        line-height   : 18px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+
 }
