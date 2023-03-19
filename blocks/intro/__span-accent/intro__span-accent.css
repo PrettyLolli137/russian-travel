@@ -1,4 +1,4 @@
-.intro__list__span-accent {
+.intro__span-accent {
     font-weight : 400;
     font-size   : 12px;
     line-height : 18px;
@@ -7,7 +7,7 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .intro__list__span-accent {
+    .intro__span-accent {
         font-weight : 400;
         font-size   : 12px;
         line-height : 18px;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .intro__list__span-accent {
+    .intro__span-accent {
         font-weight : 400;
         font-size   : 12px;
         line-height : 18px;
@@ -26,7 +26,7 @@
 
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .intro__list__span-accent {
+    .intro__span-accent {
         font-weight : 400;
         font-size   : 12px;
         line-height : 18px;
