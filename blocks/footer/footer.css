@@ -45,7 +45,6 @@
     .footer {
         padding       : 0;
         margin        : 0;
-        min-width     : 1184px;
         height        : 18px;
         display       : flex;
         flex-direction: row;
@@ -64,7 +63,7 @@
     .footer {
         padding       : 0;
         margin        : 0;
-        min-width     : 1184px;
+        max-width     : 1184px;
         height        : 18px;
         display       : flex;
         flex-direction: row;

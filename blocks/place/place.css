@@ -27,6 +27,7 @@
         grid-template-columns: 400px 1fr;
         padding-bottom        : 80px;
         column-gap           : 100px;
+
     }
 }
 
@@ -43,6 +44,7 @@
         padding-bottom        : 80px;
         border: solid red;
 
+
     }
 }
 
@@ -57,5 +59,6 @@
         column-gap           : 28px;
         row-gap              : 28px;
         padding-bottom        : 80px;
+
     }
 }
