@@ -22,7 +22,7 @@
     .cover {
         margin       : 0;
         padding      : 0;
-        
+        width: 768px;
         height       : 640px;
         margin-bottom: 92px;
     }
@@ -34,7 +34,7 @@
         margin       : 0;
         padding      : 0;
         padding-bottom: 92px;
-       width: 928px;
+        width: 928px;
         height       : 640px;
     }
 }
