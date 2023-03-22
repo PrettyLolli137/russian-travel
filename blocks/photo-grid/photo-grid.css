@@ -31,10 +31,10 @@
         margin        : 0;
         padding       : 0;
         width         : 928px;
-        height        : 942px;
+        min-height        : 942px;
         margin-top    : 92px;
-        padding-left  : 48px;
-        padding-right : 48px;
+        
+        
         margin-bottom : 92px;
         display       : flex;
         flex-direction: row;
@@ -51,11 +51,10 @@
     .photo-grid {
         margin        : 0;
         padding       : 0;
-        min-width         : 1184px;
-        height        : 671px;
+        width         : 928px;
+        min-height        : 942px;
         padding-top    : 92px;
-        padding-left  : 28px;
-        padding-right : 48px;
+        
         padding-bottom : 92px;
         display       : flex;
         flex-direction: row;
@@ -72,11 +71,11 @@
     .photo-grid {
         margin        : 0;
         padding       : 0;
-        width         : 1184px;
+        max-width         : 1184px;
         height        : 671px;
         margin-top    : 92px;
+        
         padding-left  : 48px;
-        padding-right : 48px;
         margin-bottom : 92px;
         display       : flex;
         flex-direction: row;
@@ -84,6 +83,7 @@
         gap           : 14px;
         grid-row-gap  : 14px;
         grid-row-gap  : 16px;
+        outline: 1px solid yellow
     }
 }
 

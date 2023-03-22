@@ -29,7 +29,7 @@
     .footer {
         padding        : 0;
         margin         : 0;
-        min-width      : 928px;
+        width      : 87.9%;
         height         : 18px;
         display        : flex;
         flex-wrap      : wrap;
@@ -45,16 +45,15 @@
     .footer {
         padding       : 0;
         margin        : 0;
+        width: 928px;
         height        : 18px;
         display       : flex;
         flex-direction: row;
         flex-wrap      : nowrap;
         align-items    : flex-end;
         justify-content: flex-start;
-        padding-right  : 48px;
-        padding-left   : 48px;
+      
         padding-bottom : 24px;
-
     }
 }
 
@@ -69,10 +68,9 @@
         flex-wrap      : nowrap;
         align-items    : flex-end;
         justify-content: flex-start;
-        padding-right  : 48px;
         padding-left   : 48px;
         padding-bottom : 24px;
-       
+        outline: 1px solid yellow
     }
 }
 

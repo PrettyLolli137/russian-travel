@@ -36,7 +36,7 @@
     .place {
         margin               : 0;
         padding              : 0;
-        width                : 984px;
+        width                : 928px;
         display              : grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         column-gap           : 28px;

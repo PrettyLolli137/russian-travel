@@ -21,11 +21,10 @@
     .places {
         margin       : 0;
         padding      : 0;
-        width        : 928px;
-        padding-left : 28px;
+        width        : 86%;
+        
         padding-right: 48px;
         margin-top   : 92px;
-
     }
 }
 
@@ -38,13 +37,11 @@
         flex-direction: column;
         flex-wrap     : nowrap;
         align-items   : center;
-        width                : 984px;
+        width                : 928px;
         height        : 3392px;
-        padding-left  : 148px;
        
         padding-top    : 92px;
         padding-bottom : 92px;
-
 
     }
 }
@@ -58,9 +55,9 @@
         max-width     : 984px;
         height        : 3392px;
         padding-left  : 148px;
-        padding-right : 148px;
+        padding-right: 148px;
         padding-top    : 92px;
         padding-bottom : 92px;
-
+        outline: 1px solid yellow
     }
 }
