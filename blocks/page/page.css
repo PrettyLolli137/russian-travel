@@ -17,8 +17,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px)  {
     .page {
-        
-         
+        min-width: 1024px;
+
     }
 }
 
@@ -32,8 +32,7 @@
 
 @media screen  and (min-width: 1280px)  {
     .page {  
-        outline: 1px solid yellow
-    }
+width: 100%;    }
 
 }
 
