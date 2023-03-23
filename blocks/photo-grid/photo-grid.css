@@ -2,6 +2,7 @@
     margin          : 0;
     padding-left    : 16px;
     padding-right   : 16px;
+    width: 288px;
     display         : flex;
     flex-direction  : column;
     grid-row-gap    : 12px;
@@ -10,30 +11,14 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .photo-grid {
-        margin        : 0;
-        height        : 1664px;
-        padding-left  : 24px;
-        padding-right : 24px;
-        padding-bottom: 88px;
-        flex-direction: column;
-        flex-wrap     : wrap;
-        gap           : 16px;
-        grid-row-gap  : 16px;
-        
-    }
-
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .photo-grid {
         margin        : 0;
         padding       : 0;
-        width         : 928px;
-        min-height        : 942px;
+        width         : 720px;
+        min-height        : 1664px;
         margin-top    : 92px;
-        
+        padding-left: 24px;
         
         margin-bottom : 92px;
         display       : flex;
@@ -62,6 +47,7 @@
         gap           : 14px;
         grid-row-gap  : 14px;
         grid-row-gap  : 16px;
+        padding-left: 48px;
     }
 }
 
@@ -71,8 +57,8 @@
     .photo-grid {
         margin        : 0;
         padding       : 0;
-        max-width         : 1184px;
-        height        : 671px;
+        width         : 1184px;
+        min-height        : 671px;
         margin-top    : 92px;
         
         padding-left  : 48px;

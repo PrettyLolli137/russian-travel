@@ -2,21 +2,18 @@
     color        : #FFFFFF;
     width        : 142px;
     height       : 42px;
-    padding-right: 84px;
+    padding-left: 16px;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .header__logo {
-        width : 176px;
-        height: 52px;
-    }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px)  {
     .header__logo {
+        padding: 0;
         width : 176px;
         height: 52px;
+        padding-left: 24px;
     }
 }
 

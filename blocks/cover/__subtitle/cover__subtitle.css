@@ -13,7 +13,9 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
@@ -24,23 +26,12 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .cover__subtitle {
-        margin     : 0;
-        width      : 360px;
-        left       : 191px;
-        top        : 379px;
-        font-size  : 18px;
-        line-height: 22px;
-    }
-}
-
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
-        left       : 232px;
+        left       : 332px;
         top        : 429px;
         font-size  : 18px;
         line-height: 22px;
@@ -52,7 +43,7 @@
     .cover__subtitle {
         margin     : 0;
         width      : 360px;
-        left       : 412px;
+        left       : 462px;
         top        : 429px;
         font-size  : 18px;
         line-height: 22px;

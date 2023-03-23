@@ -18,17 +18,13 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .place__link {
-        margin     : 0;
-        width      : 352px;
-    }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__link {
         margin     : 0;
-        width      : 456px;
+        padding: 0;
+        
     }
 }
 

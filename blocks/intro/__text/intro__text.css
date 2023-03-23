@@ -10,19 +10,6 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .intro__text {
-        margin        : 0;
-        width         : 720px;
-        font-style    : normal;
-        font-weight   : 400;
-        font-size     : 16px;
-        line-height   : 163%;
-        padding-bottom: 33px;
-        text-align    : left;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro__text {
         padding: 0;
@@ -34,7 +21,6 @@
         line-height   : 163%;
         padding-bottom: 33px;
         text-align    : left;
-        padding-left  : 48px;
     }
 }
 
