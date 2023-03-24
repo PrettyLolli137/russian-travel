@@ -22,7 +22,7 @@
         display       : flex;
         align-items   : flex-start;
         flex-direction: column;
-        max-width         : 352px;
+        width     : 352px;
     }
 }
 
@@ -31,6 +31,9 @@
     .place__paragraphs {
         padding       : 0;
         margin        : 0;
+        font-size     : 18px;
+        line-height   : 163%;
+        
         display       : flex;
         flex-direction: column;
         align-items   : flex-start;
@@ -43,6 +46,8 @@
     .place__paragraphs {
         padding       : 0;
         margin        : 0;
+        font-size     : 18px;
+        line-height   : 163%;
         display       : flex;
         flex-direction: column;
         align-items   : flex-start;

@@ -1,8 +1,10 @@
 .places {
     margin : 0;
     padding: 0;
+    padding-top: 64px;
+    padding-bottom: 66px;
+
     color      : #FFFFFF;
-    padding-top: 66px;
     background-color: #2A2C2F;
     width: 320px;
     
@@ -14,10 +16,15 @@
         margin       : 0;
         padding      : 0;
         width        : 720px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : center;
+        row-gap: 73px;
+        padding-left: 24px;
+        padding-bottom: 90px;
         
         
-        padding-top   : 92px;
-        padding-bottom: 92px;
     }
 }
 
@@ -31,9 +38,7 @@
         flex-wrap     : nowrap;
         align-items   : center;
         width                : 928px;
-        height        : 3392px;
-       
-        padding-top    : 92px;
+        row-gap: 80px;
         padding-bottom : 92px;
         padding-left  : 48px;
 
@@ -48,10 +53,13 @@
         padding       : 0;
         
         width     : 984px;
-        height        : 3392px;
         padding-left  : 148px;
-        
-        padding-top    : 92px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap     : nowrap;
+        align-items   : center;
+        row-gap: 80px;
+
         padding-bottom : 92px;
     }
 }

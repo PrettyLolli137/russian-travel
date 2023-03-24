@@ -16,11 +16,10 @@
         margin        : 0;
         padding       : 0;
         width         : 720px;
-        min-height        : 1664px;
         margin-top    : 92px;
         padding-left: 24px;
         
-        margin-bottom : 92px;
+        padding-bottom : 88px;
         display       : flex;
         flex-direction: row;
         flex-wrap     : wrap;
@@ -37,7 +36,6 @@
         margin        : 0;
         padding       : 0;
         width         : 928px;
-        min-height        : 942px;
         padding-top    : 92px;
         
         padding-bottom : 92px;
@@ -58,11 +56,10 @@
         margin        : 0;
         padding       : 0;
         width         : 1184px;
-        min-height        : 671px;
-        margin-top    : 92px;
+        padding-top    : 92px;
         
         padding-left  : 48px;
-        margin-bottom : 92px;
+        padding-bottom : 92px;
         display       : flex;
         flex-direction: row;
         flex-wrap     : wrap;

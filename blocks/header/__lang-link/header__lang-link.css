@@ -1,64 +1,45 @@
 .header__lang-link {
-    color         : #FFFFFF;
-    width         : 22px;
-    font-style    : normal;
-    font-weight   : 400;
-    font-size     : 18px;
-    line-height   : 1.0;
-    padding-left: 84px;
-    padding-right: 18px;
-    padding-bottom: 8px;
-    padding-top   : 14px;
-    opacity       : 1;
-    transition    : opacity 0.4s;
+    color               : #FFFFFF;
+    font-style          : normal;
+    font-weight         : 400;
+    font-size           : 18px;
+    line-height         :  1.0;
+    padding-bottom      : 8px;
+    padding-right: 16px;
+    padding-top         : 14px;
+    text-decoration-line: none;
+    opacity             : 1;
+    transition          : opacity 0.4s;
 }
 
-.header__lang-link:hover {
-    opacity: 0.5;
-}
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px)  {
     .header__lang-link {
-        color       : #FFFFFF;
-        width       : 30px;
         font-style  : normal;
         font-weight : 400;
         font-size   : 24px;
         line-height : 28px;
-        padding-left: 438px;
         text-align          : right;
-        text-decoration-line: underline;
     }
 }
 
 
 @media screen and (min-width: 1024px) and (max-width: 1280px)  {
     .header__lang-link {
-        color       : #FFFFFF;
-        width       : 30px;
-        font-style  : normal;
-        font-weight : 400;
-        font-size   : 24px;
-        line-height : 28px;
-        padding-left: 612px;
-        text-align          : right;
-        text-decoration-line: underline;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 28px;
     }
 }
 
-@media screen and (min-width: 1280px)  {
 
+@media screen and (min-width: 1280px)  {
     .header__lang-link {
-        color       : #FFFFFF;
-        width       : 30px;
-        font-style  : normal;
-        font-weight : 400;
-        font-size   : 24px;
-        line-height : 28px;
-        padding-left: 877px;
-        text-align          : right;
-        text-decoration-line: underline;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 28px;
     }
-    
 }

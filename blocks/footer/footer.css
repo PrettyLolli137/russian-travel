@@ -3,11 +3,12 @@
     color           : #FFFFFF;
     width       : 186px;
     background-color: #2A2C2F;
-    padding-top     : 97px;
+    padding-top     : 64px;
     display         : flex;
     flex-direction  : column;
     justify-content : space-between;
     row-gap         : 32px;
+    padding-right: 118px;
 
 
 }
@@ -20,12 +21,11 @@
         padding        : 0;
         margin         : 0;
         width      : 720px;
-        height         : 18px;
         display        : flex;
-        flex-wrap      : wrap;
+        flex-direction: row;
         justify-content: flex-start;
         padding-bottom : 24px;
-        
+        gap:18px;    
         align-content  : stretch;
     }
 }
@@ -36,7 +36,6 @@
         padding       : 0;
         margin        : 0;
         width: 928px;
-        height        : 18px;
         display       : flex;
         flex-direction: row;
         flex-wrap      : nowrap;
@@ -54,7 +53,6 @@
         margin        : 0;
         
         width     : 1184px;
-        height        : 18px;
         display       : flex;
         flex-direction: row;
         flex-wrap      : nowrap;
