@@ -43,8 +43,8 @@
         margin      : 0;
         padding     : 0;
         width       : 690px;
+        align-self: flex-start;
         padding-left: 100px;
-        align-self:flex-start;
         padding-top : 92px;
     }
 }
