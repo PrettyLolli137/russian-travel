@@ -23,19 +23,20 @@
         padding: 0;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px) { 
 
-    .place__link { 
-        margin     : 0; 
-        width      : 456px; 
-    } 
-} 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .place__link {
+        margin: 0;
+        width : 456px;
+    }
+}
 
 
-@media screen and (min-width: 1280px) { 
+@media screen and (min-width: 1280px) {
 
-    .place__link { 
-        margin     : 0; 
-        width      : 456px; 
-    } 
-} 
+    .place__link {
+        margin: 0;
+        width : 456px;
+    }
+}
