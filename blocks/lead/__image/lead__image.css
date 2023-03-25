@@ -20,7 +20,6 @@
         padding: 0;
         width  : 928px;
         height : 580px;
-        padding-left: 48px;
         
     }
 }
@@ -30,7 +29,6 @@
     .lead__image {
         margin   : 0;
         padding  : 0;
-        padding-left: 148px;
         max-width: 984px;
         height   : 615px;
         

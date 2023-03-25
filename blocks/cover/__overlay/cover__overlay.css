@@ -1,6 +1,6 @@
 .cover__overlay {
     margin    : 0;
-    position  : absolute;
+  position: absolute;
     width     : 320px;
     min-height    : 200px;
     left      : 0px;
@@ -9,18 +9,15 @@
     opacity   : 0.3;
     transition: opacity 0.4s;
 }
-
+    
 .cover__overlay:hover {
     opacity: 0.8;
 }
 
 
-
-
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover__overlay {
-        width : 720px;
+        width : 768px;
         min-height    : 480px;
     }
 
@@ -28,8 +25,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover__overlay {
-        left      : 48px;
-        width     : 928px;
+        width: 1024px;
         min-height    : 640px;
     }
 
@@ -38,7 +34,7 @@
 @media screen and (min-width: 1280px)  {
 
     .cover__overlay {
-        left      : 48px;
+
         width     : 1184px;
         min-height    : 740px;
     }
