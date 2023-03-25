@@ -1,33 +1,27 @@
 .places {
-    margin : 0;
-    padding: 0;
-    padding-top: 64px;
-    padding-bottom: 66px;
-
-    color      : #FFFFFF;
+    margin          : 0;
+    padding         : 0;
+    padding-top     : 64px;
+    padding-bottom  : 66px;
+    color           : #FFFFFF;
     background-color: #2A2C2F;
-    width: 320px;
-    
+    width           : 320px;
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .places {
-        margin       : 0;
-        padding      : 0;
-        width        : 720px;
-        display: flex;
+        margin        : 0;
+        padding       : 0;
+        width         : 720px;
+        display       : flex;
         flex-direction: column;
         flex-wrap     : nowrap;
         align-items   : center;
-        row-gap: 73px;
-        padding-left: 24px;
+        row-gap       : 73px;
+        padding-left  : 24px;
         padding-bottom: 90px;
-        
-        
     }
 }
-
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .places {
@@ -37,28 +31,25 @@
         flex-direction: column;
         flex-wrap     : nowrap;
         align-items   : center;
-        width                : 928px;
-        row-gap: 80px;
-        padding-bottom : 92px;
+        width         : 928px;
+        row-gap       : 80px;
+        padding-bottom: 92px;
         padding-left  : 48px;
-
-
     }
 }
 
-
-@media screen and (min-width: 1280px)  {
+@media screen and (min-width: 1280px) {
     .places {
-        margin        : 0;
-        padding       : 0;
-        
-        width     : 984px;
-        display: flex;
+        margin : 0;
+        padding: 0;
+
+        width         : 984px;
+        display       : flex;
         flex-direction: column;
         flex-wrap     : nowrap;
         align-items   : center;
-        row-gap: 80px;
+        row-gap       : 80px;
 
-        padding-bottom : 92px;
+        padding-bottom: 92px;
     }
 }

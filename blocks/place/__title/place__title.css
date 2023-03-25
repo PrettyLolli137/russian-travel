@@ -11,15 +11,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__title {
-        padding       : 0;
-        margin        : 0;
-        width         : 97%;
-        font-size     : 42px;
-        line-height   : 46px;
-        
+        padding    : 0;
+        margin     : 0;
+        width      : 97%;
+        font-size  : 42px;
+        line-height: 46px;
     }
 }
-
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place__title {
@@ -38,7 +36,5 @@
         width      : 97%;
         font-size  : 72px;
         line-height: 76px;
-
     }
-
 }
