@@ -9,7 +9,6 @@
     padding-top   : 14px;
     opacity       : 1;
     transition    : opacity 0.5s;
-    text-decoration:underline;
 }
 
 .header__lang-link_activated:hover {
