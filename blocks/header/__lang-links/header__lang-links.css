@@ -1,4 +1,11 @@
 .header__lang-links {
     margin: 0;
     display: flex;
+    gap:18px;
+    opacity       : 1;
+    transition    : opacity 0.5s;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }

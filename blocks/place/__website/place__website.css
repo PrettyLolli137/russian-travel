@@ -1,6 +1,6 @@
 .place__website {
     margin         : 0;
-    width          : 288px;
+    width          : 90%;
     gap            : 12px;
     display        : flex;
     flex-direction : column;
@@ -15,6 +15,7 @@
         margin     : 0;
         align-items: flex-start;
         align-self : end;
+        width: 100%;
     }
 }
 
@@ -22,7 +23,7 @@
     .place__website {
         padding   : 0;
         margin    : 0;
-        width     : 456px;
+        width     : 99.4%;
         align-self: end;
     }
 }
@@ -31,7 +32,7 @@
     .place__website {
         padding   : 0;
         margin    : 0;
-        width     : 456px;
+        width     : 94%;
         align-self: end;
     }
 }
