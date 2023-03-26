@@ -1,34 +1,28 @@
 .page {
-    margin          : 0 auto;
-    background-color: #2A2C2F;
-    font-family     : 'Inter', Arial, Helvetica, sans-serif;
-    position        : relative;
-    min-width       : 320px;
-    display         : flex;
-    flex-direction  : column;
-    align-items     : center;
+    margin: 0 auto;
+    background-color: #2a2c2f;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    position: relative;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .page {
         width: 100%;
-
     }
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .page {
-width: 100%;
-
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .page {
         width: 100%;
-        
     }
 }

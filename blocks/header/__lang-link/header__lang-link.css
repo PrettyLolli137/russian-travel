@@ -1,24 +1,24 @@
 .header__lang-link {
-    color               : #FFFFFF;
-    font-style          : normal;
-    font-weight         : 400;
-    font-size           : 18px;
-    line-height         : 1.0;
-    padding-right       : 16px;
-    padding-bottom      : 8px;
-    padding-top         : 14px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-top: 14px;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
     .header__lang-link {
-        padding       : 0;
+        padding: 0;
         padding-bottom: 8px;
-        padding-top   : 14px;
-        font-style    : normal;
-        font-weight   : 400;
-        font-size     : 24px;
-        line-height   : 28px;
-        text-align    : right;
+        padding-top: 14px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: right;
     }
 }
-

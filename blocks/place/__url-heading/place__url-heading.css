@@ -1,38 +1,36 @@
 .place__url-heading {
-    margin        : 0;
-    width         : 94.5%;
-    font-style    : normal;
-    font-weight   : 400;
-    font-size     : 12px;
-    line-height   : 12px;
-    padding-top   : 32px;
-    
-    padding-right : 16px;
+    margin: 0;
+    width: 94.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 32px;
+
+    padding-right: 16px;
     letter-spacing: 2px;
-    color         : #AAAAAA;
+    color: #aaaaaa;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__url-heading {
-        margin : 0;
+        margin: 0;
         padding: 0;
         width: 100%;
     }
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place__url-heading {
         margin: 0;
         padding: 0;
-        width : 100%;
+        width: 100%;
     }
 }
-
 
 @media screen and (min-width: 1280px) {
     .place__url-heading {
         margin: 0;
-        width : 96.4%;
+        width: 96.4%;
     }
 }
