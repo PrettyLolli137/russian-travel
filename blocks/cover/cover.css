@@ -5,20 +5,18 @@
     position: relative;
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
     .cover {
         margin: 0;
         padding: 0;
         padding-bottom: 88px;
-
     }
 }
 
-@media screen and (min-width: 1024px)  {
+@media screen and (min-width: 1024px) {
     .cover {
         padding: 0;
         padding-bottom: 92px;
-
     }
 }
 

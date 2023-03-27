@@ -14,7 +14,6 @@
     position: relative;
     z-index: 1;
     gap:16px;
-
 }
 
 .cover__link::after {

@@ -1,41 +1,40 @@
 .intro {
-    margin          : 0 auto;
-    padding         : 0;
-    color           : #ffffff;
-    display         : flex;
-    flex-direction  : column;
-    width           : 90%;
-    
-    padding-bottom  : 64px;
-    padding-top     : 64px;
+    margin: 0 auto;
+    padding: 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    padding-bottom: 64px;
+    padding-top: 64px;
     background-color: #2a2c2f;
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
     .intro {
-        margin     : 0 auto;
-        padding    : 0;
+        margin: 0 auto;
+        padding: 0;
         align-items: flex-start;
-        width: 94%;
+        width: 93.8%;
         padding-top: 92px;
     }
 }
 
-@media screen and (min-width: 1024px)  {
+@media screen and (min-width: 1024px) {
     .intro {
         margin: 0 0 0 4.6%;
-        padding      : 0;
+        padding: 0;
         width: 690px;
-        padding-top  : 92px;
-        
+        padding-top: 92px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
         margin: 0 0 0 11.5%;
-        padding     : 0;
-        align-self  : flex-start;
-        padding-top : 92px;
+        padding: 0;
+        align-self: flex-start;
+        padding-top: 92px;
     }
 }

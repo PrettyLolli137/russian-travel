@@ -1,6 +1,6 @@
 .place__title {
     margin: 0 auto;
-    max-width: 288px;
+    width: 288px;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -11,7 +11,7 @@
     .place__title {
         padding: 0;
         margin: 0;
-        max-width: 340px;
+        width: 340px;
         font-size: 42px;
         line-height: 46px;
     }
@@ -21,7 +21,7 @@
     .place__title {
         padding: 0;
         margin: 0;
-        max-width: 440px;
+        width: 440px;
         font-size: 72px;
         line-height: 76px;
     }
@@ -31,7 +31,7 @@
     .place__title {
         padding: 0;
         margin: 0;
-        max-width: 460px;
+        width: 460px;
         font-size: 72px;
         line-height: 76px;
     }

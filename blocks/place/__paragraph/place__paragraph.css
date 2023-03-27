@@ -1,36 +1,30 @@
-
 .place__paragraph {
     margin: 0;
 }
 
-@media screen  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .place__paragraph {
-        font-style : normal;
+        font-style: normal;
         font-weight: 400;
-        font-size  : 16px;
+        font-size: 16px;
         line-height: 163%;
-
     }
 }
 
-
-@media screen  and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .place__paragraph {
-        font-style : normal;
+        font-style: normal;
         font-weight: 400;
-        font-size  : 18px;
+        font-size: 18px;
         line-height: 163%;
-
     }
 }
-
 
 @media screen and (min-width: 1280px) {
     .place__paragraph {
-
-        font-style : normal;
+        font-style: normal;
         font-weight: 400;
-        font-size  : 18px;
+        font-size: 18px;
         line-height: 163%;
     }
 }

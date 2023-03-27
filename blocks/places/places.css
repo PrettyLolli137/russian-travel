@@ -1,56 +1,56 @@
 .places {
-    margin          : 0;
-    padding         : 0;
-    padding-top     : 64px;
-    color           : #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 64px;
+    color: #ffffff;
     background-color: #2a2c2f;
     width: 100%;
-    display         : flex;
-    flex-direction  : column;
-    flex-wrap       : nowrap;
-    align-items     : center;
-    row-gap         : 50px;
-    padding-bottom  : 66px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    row-gap: 50px;
+    padding-bottom: 66px;
 }
 
 @media screen and (min-width: 768px) {
     .places {
-        margin        : 0 auto;
-        padding       : 0;
-        width     : 93.8%;
-        display       : flex;
+        margin: 0 auto;
+        padding: 0;
+        width: 93.8%;
+        display: flex;
         flex-direction: column;
-        flex-wrap     : nowrap;
-        align-items   : center;
-        row-gap       : 73px;
+        flex-wrap: nowrap;
+        align-items: center;
+        row-gap: 73px;
         padding-bottom: 90px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places {
-        margin        : 0 auto;
-        padding       : 0;
-        display       : flex;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
         flex-direction: column;
-        flex-wrap     : nowrap;
-        align-items   : center;
+        flex-wrap: nowrap;
+        align-items: center;
         width: 90.7%;
-        row-gap       : 80px;
+        row-gap: 80px;
         padding-bottom: 92px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .places {
-        margin        : 0 auto;
-        padding       : 0;
+        margin: 0 auto;
+        padding: 0;
         width: 76.9%;
-        display       : flex;
+        display: flex;
         flex-direction: column;
-        flex-wrap     : nowrap;
-        align-items   : center;
-        row-gap       : 80px;
+        flex-wrap: nowrap;
+        align-items: center;
+        row-gap: 80px;
         padding-bottom: 92px;
     }
 }
