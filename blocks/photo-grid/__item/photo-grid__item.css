@@ -1,6 +1,6 @@
 .photo-grid__item {
     margin: 0;
-    width: 288px;
+    max-width: 288px;
     height: 216px;
     object-fit: cover;
 }
@@ -8,7 +8,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .photo-grid__item {
         margin: 0;
-        width: 352px;
+        max-width: 352px;
         height: 264px;
     }
 }
@@ -16,7 +16,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .photo-grid__item {
         margin: 0;
-        width: 300px;
+        max-width: 300px;
         height: 225px;
     }
 }
@@ -24,7 +24,7 @@
 @media screen and (min-width: 1280px) {
     .photo-grid__item {
         margin: 0;
-        width: 284px;
+        max-width: 284px;
         height: 213px;
     }
 }

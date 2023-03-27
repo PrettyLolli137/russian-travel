@@ -5,8 +5,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 200px;
-    width: 100%;
+    min-height: calc(100vw/1.6);    width: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -14,6 +13,8 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    gap:16px;
+
 }
 
 .cover__link::after {
@@ -32,16 +33,14 @@
     opacity: 0.8;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
     .cover__link {
-        min-height: 480px;
         gap: 32px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px)  {
     .cover__link {
-        min-height: 640px;
         gap: 32px;
     }
 }

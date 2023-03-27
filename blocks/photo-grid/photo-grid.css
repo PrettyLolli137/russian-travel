@@ -1,7 +1,5 @@
 .photo-grid {
-    margin: 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: 0 auto;
     width: 288px;
     display: flex;
     flex-direction: column;
@@ -9,13 +7,12 @@
     background-color: #2a2c2f;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px)  {
     .photo-grid {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         width: 720px;
         margin-top: 92px;
-        padding-left: 24px;
         padding-bottom: 88px;
         display: flex;
         flex-direction: row;
@@ -26,9 +23,9 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px)  {
     .photo-grid {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         width: 928px;
         padding-top: 92px;
@@ -39,17 +36,15 @@
         gap: 14px;
         grid-row-gap: 14px;
         grid-row-gap: 16px;
-        padding-left: 48px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         width: 1184px;
         padding-top: 92px;
-
         padding-bottom: 92px;
         display: flex;
         flex-direction: row;

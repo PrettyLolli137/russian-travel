@@ -1,14 +1,13 @@
 .header__logo {
     color: #ffffff;
-    width: 142px;
+    min-width: 142px;
     height: 42px;
-    padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
     .header__logo {
         padding: 0;
-        width: 176px;
+        max-width: 176px;
         height: 52px;
     }
 }

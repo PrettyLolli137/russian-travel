@@ -1,29 +1,28 @@
 .place__website {
-    margin: 0;
-    width: 90%;
+    margin: 0 auto;
+    width: 288px;
     gap: 12px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 16px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px)  {
     .place__website {
         padding: 0;
         margin: 0;
         align-items: flex-start;
         align-self: end;
-        width: 100%;
+        min-width: 352px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .place__website {
         padding: 0;
         margin: 0;
-        width: 99.4%;
+        min-width: 456px;
         align-self: end;
     }
 }
@@ -32,7 +31,7 @@
     .place__website {
         padding: 0;
         margin: 0;
-        width: 94%;
+        min-width: 456px;
         align-self: end;
     }
 }

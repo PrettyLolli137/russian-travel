@@ -1,6 +1,5 @@
 .intro__title {
     margin: 0;
-    width: 288px;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -10,10 +9,9 @@
     text-align: left;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px)  {
     .intro__title {
         margin: 0;
-        width: 690px;
         font-size: 54px;
         line-height: 58px;
         color: white;
@@ -22,11 +20,10 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px)  {
     .intro__title {
         padding: 0;
         margin: 0;
-        width: 690px;
         font-size: 54px;
         line-height: 58px;
         color: white;
@@ -38,7 +35,6 @@
 @media screen and (min-width: 1280px) {
     .intro__title {
         margin: 0;
-        width: 690px;
         font-size: 54px;
         line-height: 58px;
         color: white;
