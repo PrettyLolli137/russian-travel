@@ -16,7 +16,7 @@
     .place__paragraphs {
         padding: 0;
         margin: 0;
-        max-width: 352px;
+        max-width: max-content;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -33,7 +33,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 27px;
-        max-width: 456px;
+        max-width: max-content;
     }
 }
 
@@ -47,6 +47,6 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 27px;
-        max-width: 484px;
+        max-width: max-content;
     }
 }
